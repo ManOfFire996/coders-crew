@@ -18,5 +18,4 @@ const CartElement = () => {
           </div>
   )
 }
-
 export default CartElement
