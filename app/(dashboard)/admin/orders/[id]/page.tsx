@@ -25,7 +25,6 @@ interface OrderProduct {
     categoryId: string;
   };
 }
-
 const AdminSingleOrder = () => {
   const [orderProducts, setOrderProducts] = useState<OrderProduct[]>();
   const [order, setOrder] = useState<Order>({
